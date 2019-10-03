@@ -1,0 +1,39 @@
+.NavigationItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.NavLink {
+  color: #000;
+  height: 40px;
+  padding: 8px 10px;
+  border-bottom: 4px solid transparent;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: #fff;
+}
+
+.NavLink:hover {
+  background-color: #fff;
+  border-bottom: 4px solid #f57c00;
+  color: #5c007a;
+  cursor: pointer;
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  .NavLink {
+    color: #fff;
+    background-color: #5c007a;
+  }
+
+  .NavLink:hover {
+    color: #000;
+  }
+}
+
+a {
+  text-decoration: none;
+}

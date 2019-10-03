@@ -1,0 +1,15 @@
+.Weekdays {
+  display: flex;
+}
+
+.Week {
+  display: flex;
+}
+
+.Week:nth-of-type(6) {
+  box-shadow: 2px 2px 3px #9e9e9e;
+}
+
+.Week .Day {
+  box-shadow: 2px 2px 3px #9e9e9e;
+}

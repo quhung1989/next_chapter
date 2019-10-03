@@ -1,0 +1,21 @@
+.DescriptionInput {
+  height: 100px;
+  width: 90%;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  resize: none;
+  border-radius: 5px;
+}
+
+.DescriptionInput:focus {
+  outline: none;
+  border-color: #c158dc;
+}
+
+.Description {
+  margin: 10px;
+}
+
+.DescriptionTitle {
+  margin: 10px;
+}

@@ -1,0 +1,49 @@
+.EmptyStateDay {
+  display: block;
+  flex: 1 0 0%;
+  width: 14.28571%;
+  margin: 0;
+  padding: 0.8rem;
+  border: 1px solid #757575;
+  background-color: #e0e0e0;
+}
+
+.Day {
+  display: block;
+  flex: 1 0 0%;
+  width: 14.28571%;
+  margin: 0;
+  padding: 0.8rem;
+  background: transparent;
+  border: 1px solid #757575;
+  border-radius: 0;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  box-shadow: 2px 2px 3px #9e9e9e;
+}
+
+.Selected {
+  display: block;
+  flex: 1 0 0%;
+  width: 14.28571%;
+  margin: 0;
+  padding: 0.8rem;
+  border: 1px solid #757575;
+  border-radius: 0;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f57c00;
+  color: #000;
+}
+
+.EmptyStateDay + .EmptyStateDay,
+.EmptyStateDay + .Day {
+  margin-left: -1px;
+}
+
+.Day:hover {
+  background-color: #ffad42;
+}

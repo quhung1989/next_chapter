@@ -1,0 +1,19 @@
+.Container {
+  width: 100%;
+  text-align: center;
+}
+
+.LoginRegister {
+  display: inline-block;
+}
+
+.PageTitle {
+  background-color: #bb4d00;
+  color: #fff;
+  box-shadow: 0 3px 5px rgb(0, 0, 0, 0.4);
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 1.0rem;
+  font-weight: normal;
+}

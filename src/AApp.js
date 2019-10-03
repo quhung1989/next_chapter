@@ -6,7 +6,6 @@ class App extends Component {
   render() {
     return (
       <div className={classes.App}>
-			{/* <p>Hello!</p> */}
         <Layout />
       </div>
     )

@@ -1,0 +1,60 @@
+.Container {
+  color: #fff;
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
+.Title {
+  color: #000;
+  background-color: #fff;
+  height: 40px;
+  border-bottom: 4px transparent;
+  padding: 8px 10px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.Title:hover {
+  border-bottom: 4px solid #f57c00;
+  color: #5c007a;
+}
+
+.List {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  width: auto;
+}
+
+.Title:hover {
+  background-color: #fff;
+  border-bottom: 4px solid #f57c00;
+  color: #000;
+  cursor: pointer;
+}
+
+.List:hover .ListItem{
+  display: inline-block;
+}
+
+@media (min-width: 500px) {
+  .Title {
+    color: #fff;
+    background-color: #5c007a;
+  }
+
+  .List .ListItem {
+    display: none;
+  }
+
+  .Title:hover {
+    color: #000;
+    background-color: #fff;
+    cursor: auto;
+  }
+}

@@ -1,0 +1,10 @@
+export const TOGGLE_MODAL = 'TOGGLE_MODAL';
+export const TOGGLE_DRAWER = 'TOGGLE_DRAWER';
+export const TOGGLE_SHOW_LOGIN = 'TOGGLE_SHOW_LOGIN';
+export const TOGGLE_SHOW_DROPDOWN = 'TOGGLE_SHOW_DROPDOWN';
+export const USER_IMAGE = 'USER_IMAGE';
+export const SET_USER = 'SET_USER';
+export const GET_ERRORS = 'GET_ERRORS';
+export const LOGIN_USER = 'LOGIN_USER';
+export const LOGOUT_USER = 'LOGOUT_USER';
+export const LOGGED_OUT = 'LOGGED_OUT';

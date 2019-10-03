@@ -1,0 +1,24 @@
+.CommentBox {
+  width: 100%;
+  padding: 1%;
+  max-width: 400px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: #fafafa;
+  box-shadow: 3px 3px 5px #9e9e9e;
+}
+
+.LeftPanel {
+  float: left;  
+  width: 20%;
+}
+
+.Image {
+  width: 100%;
+}
+
+.RightPanel {
+  width: 80%;
+  float: left;
+}

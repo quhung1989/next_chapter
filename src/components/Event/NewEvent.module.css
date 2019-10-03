@@ -1,0 +1,47 @@
+.Container {
+  text-align: center;
+}
+
+/* 
+THIS HAS SOME PADDING ON THE SIDES
+.NewEvent {
+  width: 100%;
+  max-width: 340px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 5px #9e9e9e;
+  display: inline-block;
+  margin-bottom: 10px;
+} */
+
+.NewEvent {
+  width: 100%;
+  box-shadow: 3px 3px 5px #9e9e9e;
+  text-align: center;
+  background-color: #fafafa;
+  max-width: 350px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.PageTitle {
+  background-color: #bb4d00;
+  color: #fff;
+  box-shadow: 0 3px 5px rgb(0, 0, 0, 0.4);
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 1.0rem;
+  font-weight: normal;
+}
+
+.NewEvent input {
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}
+
+.NewEvent:focus {
+  border-color: #f0afaf;
+  box-shadow: 0 0 8px 0 #f0afaf;
+}

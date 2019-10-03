@@ -1,0 +1,48 @@
+.Event {
+  width: 350px;
+  text-align: center;
+  box-shadow: 3px 3px 5px #9e9e9e;
+  margin: 0 15px 25px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #fafafa;
+}
+
+.Event:hover,
+.Event:active {
+  background-color: #ffad42;
+}
+
+.Author {
+  margin: 16px 0;
+  color: #ccc;
+}
+
+.Title {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: #bb4d00;
+  color: #fff;
+  box-shadow: 0 2px 2px rgb(0, 0, 0, 0.4);
+}
+
+.Description {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.Location {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Icon {
+  width: 25px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.Date {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}

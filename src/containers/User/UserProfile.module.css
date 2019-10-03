@@ -1,0 +1,67 @@
+.Container {
+  text-align: center;
+}
+
+.InputImage {
+  display: none;
+}
+
+.UserCard {
+  width: 100%;
+  box-shadow: 3px 3px 5px #9e9e9e;
+  text-align: center;
+  background-color: #fafafa;
+  max-width: 400px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.Username {
+  position: relative;
+  top: 0px;
+}
+
+.UserInfo {
+  text-align: center;
+}
+
+.ProfileImage {
+  position: relative;
+  top: 0px;
+  left: -100px;
+}
+
+.ImageInfo {
+  text-align: center;
+}
+
+.LogOutButton {
+  margin-top: 200px;
+}
+
+.ChooseImage {
+  position: relative;
+  overflow: hidden;
+  margin-top: -4px;
+  width: 200px;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  background: #bb4d00;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ChooseImage label {
+  cursor: pointer;
+}
+
+.ChooseImage:hover {
+  background: #f57c00;
+  color: #000;
+}
+
+.ChooseImage input { 
+  /* display: none; */
+  padding: 0px 0px;
+}
