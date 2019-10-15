@@ -11,9 +11,12 @@ const input = (props) => {
 		inputClasses.push(classes.InputElement)
 	}
 
-	if (props.invalid && props.value.length > 0) {
-		inputClasses.push(classes.Invalid);
+	if (props.value) {
+		if (props.invalid && props.value.length > 0) {
+			inputClasses.push(classes.Invalid);
+		}
 	}
+
 
 	switch (props.eleType) {
 		case ('input'):

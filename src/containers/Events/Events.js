@@ -14,7 +14,7 @@ class Events extends Component {
     selectedEvent: null,
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.loadEventsData();
   }
 

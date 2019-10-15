@@ -130,13 +130,13 @@ class FullEvent extends Component {
       );
   }
   
-  componentWillMount () {
-    if (this.props.match.params.id) {
-      if (!this.state.loadedEvent || this.state.loadedEvent.id !== this.props.match.params.id) {
-        this.loadEventData();
-      }
-    }
-  }
+	UNSAFE_componentWillMount () {
+		if (this.props.match.params.id) {
+      	if (!this.state.loadedEvent || this.state.loadedEvent.id !== this.props.match.params.id) {
+      		this.loadEventData();
+      	}
+   	}
+	}
 
   loadEventData = () => {
     axios.get('/api/events/get-full-event/' + this.props.match.params.id)

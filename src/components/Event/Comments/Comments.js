@@ -55,7 +55,7 @@ class Comments extends Component {
     );
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.setState({eventId: this.props.eventId},
       () =>this.loadComments());
   }

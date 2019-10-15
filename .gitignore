@@ -16,6 +16,9 @@
 /uploads
 /static
 
+# images
+*.png
+
 # misc
 .env
 .DS_Store

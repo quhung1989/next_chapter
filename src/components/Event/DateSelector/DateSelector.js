@@ -24,7 +24,7 @@ class DateSelector extends Component {
     selectedDate: null,
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     if (this.props.selectedDate) {
       this.setState({selectedDate: this.props.selectedDate})
     }

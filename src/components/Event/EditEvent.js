@@ -14,7 +14,7 @@ class EditEvent extends Component {
     date: null,
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const DATE_OBJECT = new Date(this.props.event.date);
     let timeString = DATE_OBJECT.toString();
     timeString = timeString.substring(16, 21);
