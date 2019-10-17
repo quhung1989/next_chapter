@@ -67,7 +67,8 @@ class AddComment extends Component {
       if (this.props.username) {
          const comment = this.state.comment;
          let newState = JSON.parse(JSON.stringify(this.state.comment));
-         newState.value = "";
+         newState.text.value = "";
+
          this.setState({ comment: newState });
          this.props.addComment(comment);
       }
